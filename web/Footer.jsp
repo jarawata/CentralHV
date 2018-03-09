@@ -22,30 +22,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <h2 class="logo"><a href="#"> LOGO </a></h2>
+                    <h2 class="logo"><a href="#"> CORINGE </a></h2>
                 </div>
                 <div class="col-sm-2">
-                    <h5>Get started</h5>
+                    <h5>Inicio</h5>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">Registrarse</a></li>
+                        <li><a href="#">Descargas</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
-                    <h5>About us</h5>
+                    <h5>Acerca de</h5>
                     <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Información de CORINGE</a></li>
+                        <li><a href="#">Contactenos</a></li>
+                        <li><a href="#">Historial</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
-                    <h5>Support</h5>
+                    <h5>Ayuda</h5>
                     <ul>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
+                        <li><a href="#">Mesa de Ayuda</a></li>
+                        <li><a href="#">Foros</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
@@ -59,7 +58,7 @@
             </div>
         </div>
         <div class="footer-copyright">
-            <p>© 2016 Copyright Text </p>
+            <p>© 2018 Soluciones Multimedia</p>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -40,6 +40,7 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="DatosUsuario">Registro Usuario</a></li>
                     <li><a href="#">Acerca de</a></li> 
                     <li><a href="#">Nosotros</a></li>
                 </ul>

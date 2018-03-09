@@ -43,6 +43,13 @@
                         System.out.println(rol);
                     %>
                     <li class="active"><a href="#">Inicio</a></li>
+
+                    <% if (usua.equals(null)) {%> 
+                        <li class="active"><a href="#">Registro Usuario</a></li>
+                        
+                    <% } else { %>
+                        <li class="active"><a href="#">Modificar Perfil</a></li>
+                    <% } %>
                         <% if ((rol.equals("admin")) || (rol.equals("empleado")) || (rol.equals("cliente"))) {%> 
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Hoja Vida<span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -51,6 +58,8 @@
                         </ul>
                     </li>
                     <% } %>    
+                    
+<!--
                     <% if ((rol.equals("admin"))) {%> 
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Control Usuarios<span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -61,17 +70,21 @@
                         </ul>
                     </li>
                     <% } %>       
+-->
+
                     <% if ((rol.equals("admin"))) {%> 
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Informes<span class="caret"></span></a>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Reportes<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="Listar">Listado Tabla (Ejercicio Evidencia)</a></li>
-                            <li><a href="#">Listadp por Profesión</a></li>
-                            <li><a href="#">Listado por Edad</a></li>
+                            <li><a href="Listar">Listado de Aspirantes / Empleados (consulta 1)</a></li>
+                            <li><a href="#">Listado de Empleados por Área</a></li>
+                            <li><a href="#">Listado de Empleados por Sede</a></li>
+                            <li><a href="#">Listado de Aspirantes / Empleados por Cargo</a></li>                            
+                            <li><a href="#">Listado de Aspirantes / Empleados por Profesión</a></li>
                         </ul>
                     </li>
                     <% }%>       
-                    <li><a href="#">Acerca de</a></li>
                     <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Contáctenos</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#"><span class="glyphicon glyphicon-user"></span> Que tal <%=usua%> (<%=rol%>)</a></li>
