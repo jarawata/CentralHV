@@ -83,6 +83,13 @@
                         </ul>
                     </li>
                     <% }%>       
+                    <% if ((rol.equals("admin"))) {%> 
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Bitácora<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Listar">Consultar</a></li>
+                        </ul>
+                    </li>
+                    <% }%>       
                     <li><a href="#">Nosotros</a></li>
                     <li><a href="#">Contáctenos</a></li>
                 </ul>
